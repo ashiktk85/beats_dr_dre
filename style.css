@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;1,100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.button{
+    border: none;
+}
+
+.navbar{
+   background: #1313135a; 
+   padding:1rem 8rem;
+   z-index: 1000;
+}
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    font-size: 1.1rem;
+    padding:0 0.8rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: #FA3737;
+    text-decoration: underline;
+    line-height: 15px;
+}
+#navbarSupportedContent > button{
+    background: #FA3737;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+#navbarSupportedContent > button:hover{
+    background: #fa373700;
+    font-weight: 600;
+    border: none;
+    color: white;
+}
+.mid{
+    width:100%;
+    height: 100vh;
+    overflow:hidden;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.mid video{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.hero{
+    position: absolute;
+    text-align: center;
+    padding: 10%;
+}
+
+.mid .hero{
+    position:relative;
+}
+.md.hero p{
+    width:55%;
+    font-size:1.1rem;
+    letter-spacing: 0.2rpx;
+    padding-bottom: 1rem;
+}
+.mid .hero a{
+    background: #00BF85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+.mid .hero a:hover{
+    background:white;
+}
+.about{
+    background: black;
+}
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+
+}
+.about .text h6{
+    color: #FA3737;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.about .text h2{
+    color:#F7F5F4;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.about .text p{
+    color:#F7F5F4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.about .text a{
+    background: #FA3737;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color:#111;
+}
+.discovery .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+
+}
+.discovery .text h6{
+    color: #FA3737;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.discovery .text h2{
+    color:black;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.discovery .text p{
+    
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.discovery .text a{
+    background: black;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color:#FA3737;
+}
+.service{
+    background: black;
+}
+.service .one{
+    background: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 7px;
+    width: 320px;
+    height: 550px;
+    color: #fff;
+}
+.sign .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+
+}
+.sign .text h6{
+    color: #FA3737;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.sign .text h2{
+    color:black;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.sign .text p{
+   
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.sign .text a{
+    background: black;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color:#FA3737;
+}
+#last-signup{
+    background: #FA3737;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color:#111;
+}
+.price-btn{
+    background-color:#FA3737 ;
+    border: 2px #FA3737;
+    color: black;
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+#beats-heading{
+    color:#FA3737 ;
+}
+.price-btn:hover{
+    background-color:rgb(50, 50, 50) ;
+    border: 2px solid black;
+}
